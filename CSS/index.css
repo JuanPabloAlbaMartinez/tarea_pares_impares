@@ -10,7 +10,7 @@ body {
     background-size: cover;
 }
 
-nav {
+section {
     display: flex;
     max-width: 90%;
     margin: auto;
@@ -28,9 +28,18 @@ button {
     border-radius: 10px;
     padding: 15px 30px;
     color: white;
-    text-decoration: none;
     margin-left: auto;
     margin-right: 5px;
+    border: none;
+}
+
+input {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: black;
+    margin: auto;
     border: none;
 }
 

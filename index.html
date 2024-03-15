@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-    <nav>
+    <section>
         <ul class="seleccion">
             <li>
                 <a href="#">Opciones</a>
                 <ul class="menu">
-                    <li><a href="#">Pares</a></li>
-                    <li><a href="#">Impares</a></li>
-                    <li><a href="#">Pares Mayores</a></li>
-                    <li><a href="#">Impares Mayores</a></li>
+                    <li><a href="#" onclick="showPares()">Pares</a></li>
+                    <li><a href="#" onclick="showImpares()">Impares</a></li>
+                    <li><a href="#" onclick="showParesMayores()">Pares Mayores</a></li>
+                    <li><a href="#" onclick="showImparesMayores()">Impares Mayores</a></li>
                 </ul>
             </li>
         </ul>
-        <button type="submit">Aceptar</button>
-    </nav>
+        <input type="number" id="numeroN" placeholder="Número inicial">
+        <button type="button" onclick="showResult()">Aceptar</button>
+    </section>
 
-    
+    <section id="resultado"></section>
     <script src="JS/index.js"></script>
 </body>
 </html>
