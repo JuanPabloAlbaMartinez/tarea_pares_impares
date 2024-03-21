@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de números</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de números</h1>
+        <select id="opciones">
+            <option value="todos">Ver todos</option>
+            <option value="pares">Números pares</option>
+            <option value="impares">Números impares</option>
+            <option value="paresMayores">Números pares mayores a</option>
+            <option value="imparesMayores">Números impares mayores a</option>
+        </select>
+        <input type="number" id="numero" placeholder="Ingrese un número">
+        <button id="boton">Mostrar</button>
+        <button id="btnLimpiar">Limpiar</button>
+    </header>
+    <main>
+        <ul id="numeros"></ul>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
